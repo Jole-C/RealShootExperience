@@ -6,7 +6,7 @@ Due to a mix of personal and computer issues, this project won't be updated for 
 # Details
 This is a project originally made for university. The plan was to make something small with simple mechanics, but with mechanics I knew I could program well. For this, I decided to make a Devil Daggers inspired wave based FPS.
 
+The project is written in a mix of Blueprints and C++, with focus on backend systems being in C++ as well as scaffolding for Blueprints. The plan was to polish it up and release it as a full game (with a name change!)
 
-The project is written in a mix of Blueprints and C++, with focus on backend systems being in C++ and Blueprint scaffolding.
 ### Important note:
-As part of the process of improving this project, the original university project assumed every enemy would use the same set of components. This was correct, but proved to be a problem when working on the project in the future, as enemies began to use a mix of components such as skeletal and static meshes. Those original components were not removed as the plan was to remove them once all references were changed, but each enemy uses its own set of components.
+As part of the process of improving this project, the original university project assumed every enemy would use the same set of components. This was correct, but proved to be a problem when working on the project in the future, as enemies began to use a mix of components such as skeletal and static meshes. Those original components were not removed as the plan was to remove them once all references were changed, but each enemy uses its own set of components. This means that the component hierarchy on most enemies looks a little messy.
